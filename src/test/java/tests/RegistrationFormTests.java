@@ -30,6 +30,7 @@ public class RegistrationFormTests extends TestBase {
     @Test
     @DisplayName("Успешная регистрация пользователя")
     void fillRegistrationFormTest() {
+
         //act
         registrationPage.openPage()
                 .setFirstName(name)
